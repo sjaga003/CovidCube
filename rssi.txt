@@ -1,1 +1,1 @@
-RSSI return value: 0
+RSSI return value: -7

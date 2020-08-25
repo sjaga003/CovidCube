@@ -44,10 +44,10 @@ def rssi_cont():
     return rssi_cont()
 
 #result, confidence = rssi_n(int(sys.argv[1]))
-result, confidence = rssi_cont()
-if(result):
-    print("6 feet apart!")
-else:
-    print("Too close!")
-print(str(confidence) + "% success rate!")
-
+def main():
+    result, confidence = rssi_cont()
+    if(result):
+        print("6 feet apart!")
+    else:
+        print("Too close!")
+    print(str(confidence) + "% success rate!")

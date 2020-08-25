@@ -1,6 +1,8 @@
 import bluetooth
 from gpiozero import LED, Button
 import time
+import rssi
+#import os
 
 server_socket=bluetooth.BluetoothSocket( bluetooth.RFCOMM )
 button = Button(2)
@@ -13,16 +15,28 @@ server_socket.listen(1)
 count = 0 
 client_socket,address = server_socket.accept()
 print("Accepted connection from ", address)
+val = 0
+
+override = True
 while 1:
+ #print("Starting Puzzle 1")
+ #os.system('python3 rssi.py') #This call will continue recursively until successful, returning 1
+ #if(val == 0):
+  #   val = rssi.rssi_cont()
+   #  if(val == True):
+    #     print("Puzzle 1 complete!")
+    
  if ard.is_pressed:
      print("Recieved signal from arduino")
- if button.is_pressed:
+ if button.is_pressed or override:
     print("Button pressed..")
     led.on()
     if count == 0:
       client_socket.send("puzzle1_start")
       print("Sent puzzle1_start")
+      rssi.main()
     elif count == 1:
+      override = False
       client_socket.send("puzzle2_start")
       print("Sent puzzle2_start")
     elif count == 2:

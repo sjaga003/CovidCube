@@ -4,7 +4,7 @@ import time
 
 
 count = 0
-pwd = "12345"
+pwd = "57613"
 led1 = LED(17)
 led2 = LED(27)
 led3 = LED(22)
@@ -16,7 +16,7 @@ startSignal = Button(4, pull_up=False)
 
 while(count != 5):
     print("outside")
-    if(not(startSignal.is_pressed)):
+    if(startSignal.is_pressed):
         #startSignal.wait_for_press()
         while(count != 5):
             print("inside")

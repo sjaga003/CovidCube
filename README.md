@@ -20,21 +20,21 @@ This project was designed over the course of 8 weeks and built in 2 weeks as par
 </p>
 
 <p align="center">
-  <img height="500" src="resources/centraldiagram.png">
+  <img height="500" src="Resources/centraldiagram.png">
   <div>A diagram describing how signals will be sent from each subsystem.</div>
   <br>
   <br>
 </p>
 
 <p align="center">
-  <img height="500" src="resources/physicaldiagram.png">
+  <img height="500" src="Resources/physicaldiagram.png">
   <div>Physical diagram describing how the box will physically be laid out.</div>
   <br>
   <br>
 </p>
 
 <p align="center">
-  <img height="500" src="resources/gantt.png">
+  <img height="500" src="Resources/gantt.png">
   <div>Gantt Chart describing how long each subsystem would take to complete and test.</div>
   <br>
   <br>

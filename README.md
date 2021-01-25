@@ -4,7 +4,7 @@
   <img height="500" src="Resources/CovidCubeHeader.jpg">
 </p>
 
-The Covid Puzzle Cube is an educational and fun puzzle box that serves to teach the user about quarantine etiquette. View the live demonstration of the cube [here](https://www.youtube.com/watch?v=7beyGCJO7LQ)!
+The Covid Puzzle Cube is an educational and fun puzzle box that serves to teach the user about quarantine etiquette. View the live demonstration of the cube [here](https://www.youtube.com/watch?v=G0hbTkjBLCU)!
 
 ## Overview
 

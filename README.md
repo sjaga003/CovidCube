@@ -1,14 +1,14 @@
-# cs179j-STACK
+# Covid Puzzle Cube
 
 <p align="center">
   <img height="500" src="Resources/CovidCubeHeader.jpg">
 </p>
 
-The Covid Cube is an educational and fun puzzle box that serves to teach the user about quarantine etiquette. View the live demonstration of the cube [here](https://www.youtube.com/watch?v=7beyGCJO7LQ)!
+The Covid Puzzle Cube is an educational and fun puzzle box that serves to teach the user about quarantine etiquette. View the live demonstration of the cube [here](https://www.youtube.com/watch?v=7beyGCJO7LQ)!
 
 ## Overview
 
-This project was designed over the course of 8 weeks and built in 2 weeks as part of CS179J: Embedded Systems Senior Design, with a team of 5 members at UC Riverside. The Covid Cube has 5 puzzles that all interact with each other and share data with a corresponding mobile app. The **full final report** is viewable [here](resources/Final_Report.pdf) with **in depth design and testing information**. This project was written using a combination of Python and CSS, the card dispenser was 3D printed.
+This project was designed over the course of 8 weeks and built in 2 weeks as part of CS179J: Embedded Systems Senior Design, with a team of 5 members at UC Riverside. The Covid Puzzle Cube has 5 puzzles that all interact with each other and share data with a corresponding mobile app. The **full final report** is viewable [here](resources/Final_Report.pdf) with **in depth design and testing information**. This project was written using a combination of Python and CSS, the card dispenser was 3D printed.
 
 ## Flowcharts & Diagrams
 
